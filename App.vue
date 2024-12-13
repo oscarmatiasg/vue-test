@@ -12,9 +12,9 @@
         </span>
         <router-link to="/" class="nav-link">Gestor de Tareas</router-link>
       </div>
-      <router-link to="/addtask">Agregar Tarea</router-link> ||
-      <router-link to="/tasklist">Lista de Tareas</router-link> ||
-      <router-link to="/combined">Tareas Combinadas</router-link>
+      <router-link to="/src/views/addtask">Agregar Tarea</router-link> ||
+      <router-link to="/src/views/tasklist">Lista de Tareas</router-link> ||
+      <router-link to="/src/views/combinedwiew">Tareas Combinadas</router-link>
     </nav>
     <!-- Aquí se cargará el componente correspondiente a la ruta seleccionada -->
     <router-view />
